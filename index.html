@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" > 
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- fluid container (not fixed width) then your row then columns -->
+    <div class="container-fluid">
+        <div class="row ">
+            <!-- WE want to style the main box so always look to the parent element therefore we do "col" -->
+            <!-- 1.same as d-block but its display flex(flexbox)2.basically same as align:center of column 
+                3.does horizontal centering(take note of the quotation marks)-->
+            <div class="col d-flex align-items-center justify-content-center">
+                <div id="bc-1">
+                    <!-- Title -->
+                    <h2> Login Profile </h2>
+                    <!-- user input (d-block=new line)-->
+                    <input placeholder="Username">
+                    <input type="password" class="d-block" placeholder="Password">
+
+                    <!-- Terms and Conditions -->
+                    <input type="checkbox" id="terms">
+                    <label for="terms" id="tc"> I agree with the Terms and Conditons </label>
+
+
+                    <!-- Login Button -->
+                    <button class="d-block" type="button">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* this would be the main box */ 
+#bc-1{
+    background-color: rgba(11, 79, 119, 0.774); 
+    width: 500px;
+    padding: 15px ;
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: 5px 10px #888888;
+}
+
+input{
+
+    background-color: antiquewhite;
+    color: black; 
+    width: 100% ; 
+    padding: 10px; 
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+button{
+    width: 100%;
+    padding: 10px; 
+    border: none; 
+    margin-bottom: 15px ;
+    text-transform: uppercase;
+    /*block means noting else will take up its space in that line */
+    display: block; 
+    /* margin |vertical | horizontal|  */ 
+    margin: 0 auto;
+    border-radius: 15px;
+    
+}
+
+#tc{
+    text-transform: none ;
+    color: black; 
+}
+
+h2{
+    text-align: center ;
+}
+
+/* height is 100 viewport height. As a result the whole screen is selected for our app where as before only the top half was 
+being occupied by our app(login window) and now we have all that space or windows to move around in*/
+.col {
+
+    background: url(https://live.staticflickr.com/4065/4278288727_2a82dfbdfa_k.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+}
+
